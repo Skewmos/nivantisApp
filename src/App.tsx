@@ -29,6 +29,7 @@ import '@ionic/react/css/display.css';
 /* Component */ 
 import Visualisation from './pages/visualisation';
 import Home from './pages/home';
+import Search from './pages/Search';
 
 /* Theme variables */
 import './theme/variables.css';
@@ -41,6 +42,9 @@ const App: React.FC = () => (
         <IonRouterOutlet>
           <Route exact path="/" >
             <Home />
+          </Route>
+          <Route exact path="/search">
+            <Search />
           </Route>
           <Route exact path="/visualisation">
             <Visualisation />

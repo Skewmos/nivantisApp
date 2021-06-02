@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link
+  } from "react-router-dom";
 import Logo from '../resource/img/logo.png'
 
 const Home  = () => {
@@ -11,7 +14,7 @@ const Home  = () => {
                                 <img src={Logo} alt="Logo of NivantissApp" />
                                 <h1 className="title">NIVANTISSAPP</h1>
                                 <h5 className="subtitle">L'outil qui révolutionnera votre quotidien </h5>
-                                <button className="btn btn-light">Entrez dans l'application</button>
+                                <Link to="/search"><button className="btn btn-light">Entrez dans l'application</button> </Link>
                            </section>
                         </div>
                     </div>

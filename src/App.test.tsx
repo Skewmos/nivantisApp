@@ -7,8 +7,3 @@ test('renders without crashing', () => {
   expect(baseElement).toBeDefined();
 });
 
-
-test('page should have a title of Médicaments', async () => {
-  const { findByText } = render(<App />);
-  await findByText('Médicaments');
-});
