@@ -8,7 +8,7 @@ test('renders without crashing', () => {
     expect(baseElement).toBeDefined();
   });
 
-  test('rendering and submitting a basic Formik form', async () => {
+/* test('rendering and submitting a basic Formik form', async () => {
     const handleSubmit = jest.fn()
     render(<SearchForm/>)
   
@@ -21,4 +21,4 @@ test('renders without crashing', () => {
         search: 'Doliprane',
       }, expect.anything())
     )
-  })
+  }) */
