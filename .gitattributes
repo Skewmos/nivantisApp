@@ -1,1 +1,2 @@
 src/data/drug.json filter=lfs diff=lfs merge=lfs -text
+src/data/medicaments.json filter=lfs diff=lfs merge=lfs -text

@@ -27,7 +27,7 @@ interface Values {
 
 
 export const SearchForm = () => {
-    const Data = require('../data/drug.json');
+    const Data = require('../data/medicaments.json');
     return (
         <Formik
         initialValues={{
